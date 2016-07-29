@@ -24,9 +24,9 @@ solution
 
     interpolationSchemes
     {
-        rho         cell;
-        U           cellPoint;
-        mu          cell;
+        rho.air         cell;
+        U.air           cellPoint;
+        mu.air          cell;
     }
 
     averagingMethod dual;
@@ -57,7 +57,7 @@ subModels
     {
         ErgunWenYuDrag
         {
-            alphac alpha;
+            alphac alpha.air;
         }
         gravity;
     }

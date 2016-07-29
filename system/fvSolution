@@ -31,7 +31,7 @@ solvers
         relTol          0;
     }
 
-    U
+    U.air
     {
         solver          smoothSolver;
         smoother        symGaussSeidel;

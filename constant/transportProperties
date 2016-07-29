@@ -15,8 +15,8 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-
-rho         1.2;
+continuousPhaseName air;
+rho.air         1.2;
 
 transportModel  Newtonian;
 
